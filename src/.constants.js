@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: '939080410:AAGUSgktw9xYXeKWZfzAeu8VKd9zgOs1fh0',
+  TOKEN: '1485408536:AAGLv0ejOrX0bwdNgP8jwBwThiXVhvNpVFc',
   ARIA_SECRET: 'pronoob',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
@@ -7,7 +7,7 @@ module.exports = Object.freeze({
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   INDEX_DOMAIN: 'https://its.pronoobgdrivemoviess.workers.dev/Pronoobcloud/', //Get it from here https://gdindex-code-builder.glitch.me/
-  GDRIVE_PARENT_DIR_ID: '13z5zCp5XR-XdyT50HdJDr84IzdroF-lE',
+  GDRIVE_PARENT_DIR_ID: '0AE7-MiwE83wKUk9PVA',
   SUDO_USERS: [882130858],	// Telegram user IDs. These users can use the bot in any chat.
   AUTHORIZED_CHATS: [-291164914],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 5000, // A smaller number will update faster, but might cause rate limiting
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
   COMMANDS_USE_BOT_NAME: {
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@AnonymousfilesUploader_bot"
+    NAME: "@Itsmymega_bot"
   },
   IS_TEAM_DRIVE: true
 });
